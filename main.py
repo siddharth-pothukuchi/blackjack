@@ -1,9 +1,13 @@
+# blackjack game
+
 import random 
 
-# blackjack game
+# variables
 
 player = 0
 comp = 0 
+
+# loop
 
 while True:
     if comp > 21:
@@ -16,6 +20,8 @@ while True:
     crand = random.randint(1,11)
     comp = comp + crand
    
+    # conditionals
+
     if hit == "Y":
         rand = random.randint(1,11)
         player = player + rand
